@@ -12,7 +12,7 @@ Reshape Layer: This layer takes the output from the Dense layer and reshapes it 
 
 To visualize this, imagine a large number of points (each representing a neuron) in a 1D line (the output of the Dense layer) getting rearranged into a 4D grid structure (the Reshape layer's output).
 
-![DALL·E 2023-11-14 16 13 47 - A conceptual illustration showing the transformation from a Dense layer to a Reshape layer in a neural network  The Dense layer is depicted as a long,](https://github.com/lggg123/Understanding-GANs/assets/22415259/62384d33-372b-4866-afa5-0ee22bcd7cb5 =400x400) 
+![DALL·E 2023-11-14 16 13 47 - A conceptual illustration showing the transformation from a Dense layer to a Reshape layer in a neural network  The Dense layer is depicted as a long,](https://github.com/lggg123/Understanding-GANs/assets/22415259/75168a48-014f-4f18-88d2-cbbe8c9eca51)
 
 ## What is a 4D Tensor
 
