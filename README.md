@@ -2,9 +2,9 @@
 
 ## We start with creating the neural network layers
 
-Function Definition: def build_generator(latent_dim): This function, build_generator, is designed to build a generator model. It takes one parameter, latent_dim, which is the size of the latent space (a vector of random numbers) that the generator will use as input to generate new data.
+Function Definition: `def build_generator(latent_dim)`: This function, build_generator, is designed to build a generator model. It takes one parameter, latent_dim, which is the size of the latent space (a vector of random numbers) that the generator will use as input to generate new data.
 
-Sequential Model: model = tf.keras.Sequential([...]): This line initializes a sequential model using TensorFlow's Keras API. Sequential models are linear stacks of layers where you can just add layers. The layers you're adding define the architecture of the generator.
+Sequential Model: `model = tf.keras.Sequential([...])`: This line initializes a sequential model using TensorFlow's Keras API. Sequential models are linear stacks of layers where you can just add layers. The layers you're adding define the architecture of the generator.
 
 Dense Layer: The Dense layer in this context is fully connected, meaning each input neuron (from the latent space of size latent_dim) connects to each of the 128 * 16 * 16 * 16 output neurons. It's a high-dimensional space transformation.
 
